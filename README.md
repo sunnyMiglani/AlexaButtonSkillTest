@@ -19,7 +19,11 @@ We would define a set number of patterns (max 32), through these we only act bas
 For each event you define, you list the patterns it has to MATCH and the ones it has to FAIL. This way you can force mutual exclusion.
 This also allows for a default _match all_ pattern.
 
+These patterns are done using a system of **recoginzers**. These are defined [here](https://developer.amazon.com/docs/gadget-skills/define-echo-button-events.html#recognizers)
 
+Essentially these systems are just patterns which the buttons can correspond / check against and return the relevant event to. 
+
+The `match` recoginzer is the one that's most important for our implementation. It should be able to pattern match a specific pattern in order in the history of the `InputHandler`.
 
 ## Documentation:
 Referenced Documents / Links are :
