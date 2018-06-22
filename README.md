@@ -29,4 +29,4 @@ The `match` recoginzer is the one that's most important for our implementation. 
 Referenced Documents / Links are :
 1. [Overall outline of how buttons work](https://developer.amazon.com/docs/gadget-skills/gameengine-interface-reference.html)
 2. [Focused on Events for InputHandler. THIS IS THE MOST IMPORTANT ONE](https://developer.amazon.com/docs/gadget-skills/define-echo-button-events.html#progress)
-3. [Example sample repo](https://github.com/alexa/skill-sample-nodejs-buttons-colorchanger#preparation)
+3. [Example sample repo](https://github.com/alexa/skill-sample-nodejs-buttons-hellobuttons)
